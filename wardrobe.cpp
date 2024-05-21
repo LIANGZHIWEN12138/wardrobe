@@ -12,13 +12,13 @@ CObj::~CObj()
 
 void CObj::Init(int id, int l, int w, int h)
 {
-    ID = id;
+    this.ID = id;
     SetSize(l, w, h);
 }
 
 void CObj::Init(int id, SSize &s)
 {
-    ID = id;
+    this.ID = id;
     SetSize(s);
 }
 

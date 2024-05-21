@@ -8,6 +8,8 @@ int main(){
     CTest_Wardrobe test;
     test.EnableCout();
 
+
+
     cout << "====================Partition Test====================" << endl;
     test.SetUp();
     assert(true == test.TestPartition(test.wd, test.vcpm[0], 10));
@@ -64,5 +66,5 @@ int main(){
     test.TearDown();
     cout << "====================End Putin Test====================" << endl;
     
-
+	return 0;
 }
